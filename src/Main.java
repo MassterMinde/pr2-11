@@ -1,3 +1,10 @@
 public class Main {
+    public static void main(String[] args){
+        Human notHuman = new Human();
+        System.out.println(notHuman.toString());
+    }
 }
-//https://code-with-me.jetbrains.com/Nuxs0Ch8iFL9oMHWlNWhGw#p=IC&fp=B754B980603215A638C6EADCD64CAB6EDA3FE8DA8FBF98BF6D1CD4F88EA9D291
+//Создать класс, описывающий тело человека (Human).
+// Для описания каждой части тела создать отдельные классы (Head, Leg, Hand) не используя наследование.
+// Описать необходимые свойства и методы для каждого класса (в том числе геттеры/сеттеры). Протестировать работу класса Human.
+// Нарисовать UML диаграмму относительно этих классов (для построение диаграммы подойдет сайт https://draw.io)
